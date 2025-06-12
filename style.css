@@ -1,0 +1,129 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family : sans-serif;
+}
+
+body {
+    height : 100vh;
+    background : url(images/background.png);
+    background-position : center;
+    background-size : cover;
+    background-repeat : no-repeat;
+}
+
+header {
+    position : relative;
+    height : 20%;
+    width : 80%;
+    color : #fff;
+    list-style : none;
+    display : flex;
+    left : 200px;
+    top : 20px;
+}
+
+.logo {
+    height : 50px;
+}
+
+.nav-container {
+    position : absolute;
+    display : flex;
+    height : 20%;
+    width : 450px;
+    left : 90px;
+    top : 15px;
+    justify-content : space-between;
+    font-size : 16px;
+}
+
+.nav-items:hover {
+    color : orange;
+    cursor : pointer;
+}
+
+.lang-btn {
+    position : absolute;
+    right : 0;
+    top : 10px;
+}
+
+.lang-btn button {
+    padding : 0.7em 1.7em;
+    border-radius : 25px;
+    background : transparent;
+    border : 1px solid white;
+    color : white;
+}
+
+.lang-btn button:hover {
+    background : orange;
+    cursor : pointer;
+}
+
+
+/* Main Section */
+.main-section {
+    position : relative;
+    width : 50%;
+    left : 200px;
+    top : 100px;
+    color : #fff;
+}
+
+.main-title {
+    font-size : 50px;
+}
+
+.mt-change {
+    color : orange;
+}
+.sub-title {
+    margin-top : 18px;
+    font-size : 16px;
+}
+
+.explore {
+    padding : 0.9em 1.9em;
+    border-radius : 25px;
+    margin-top : 20px;
+    background : orange
+    color : #fff;
+    border : 0 solid
+}
+
+.explore:hover {
+    background : #cc7000;
+}
+
+.cryto-container {
+    position : relative;
+    top : 100px;
+    left : 800px;
+    width : 40%;
+    display : flex;
+    justify-content : space-around;
+}
+
+.crypto-item {
+    border : 1px solid #FFFFD9;
+    color : white;
+    display : flex;
+    padding : 10px 30px;
+    border-radius : 10px;
+    margin-right : 15px;
+}
+
+.crypto-info {
+    display : flex;
+    flex-direction : column;
+    justify-content : space-around;
+}
+
+.crypto-item img{
+    height : 50px;
+    margin-right : 15px;
+}
+
