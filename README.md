@@ -2,6 +2,16 @@
 
 This is a simple web-based application that displays the **real-time price** of popular cryptocurrencies — **Bitcoin (BTC)**, **Ethereum (ETH)**, and **Dogecoin (DOGE)** — in **US Dollars (USD)**.
 
+## 🌐 Live Demo
+
+[🔗 View Live Website](https://sarthdhakade963.github.io/CryptoCurrency-Converter-App/) 
+
+---
+
+## 📸 Preview
+
+![Crypto Converter Screenshot](./screenshot.png)
+
 ## 🚀 Features
 
 - 💰 Real-time price of Bitcoin, Ethereum, and Dogecoin.
